@@ -23,7 +23,7 @@ const Video = () => {
                     onLoadedData={(e) => e.target.playbackRate = 1.0}
                     onError={() => console.log('Video failed to load')}
                 >
-                    <source src="/9860821-hd_1920_1080_30fps.mp4" type="video/mp4" />
+                    <source src="/sea.mp4" type="video/mp4" />
                 </video>
             </div>
         </>
