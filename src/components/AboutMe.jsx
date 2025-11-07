@@ -5,11 +5,11 @@ const AboutMe = () => {
         <>
             <section id="about" className='row my-5'>
                 <div className='col-12 d-flex flex-column justify-content-center align-items-center p-5 text-white'>
-                    <h1 style={{ fontSize: '80px' }}>Creating digital solutions that <span className="highlight">Matter</span></h1>
-                    <div style={{ fontSize: '30px' }} >I'm a dedicated full-stack developer who transforms complex challenges into elegant, high-performance web applications.</div>
-                    <div style={{ fontSize: '30px' }}>With a keen eye for detail and a passion for innovation, I build robust systems that grow with your business needs.</div>
+                    <h1 className="hero-title" style={{ fontSize: '80px' }}>Creating digital solutions that <span className="highlight">Matter</span></h1>
+                    <div className="hero-subtitle" style={{ fontSize: '30px' }} >I'm a dedicated full-stack developer who transforms complex challenges into elegant, high-performance web applications.</div>
+                    <div className="hero-subtitle" style={{ fontSize: '30px' }}>With a keen eye for detail and a passion for innovation, I build robust systems that grow with your business needs.</div>
                     <div className='my-3'></div>
-                    <h2 style={{ fontSize: '50px' }}>About Me</h2>
+                    <h2 className="about-title" style={{ fontSize: '50px' }}>About Me</h2>
                     <div style={{ fontSize: '15px' }} >Driven by a passion for technology and web development, I began my career in the commercial and marketing world before discovering programming a field where logic, creativity, and problem-solving come together.</div>
                     <div style={{ fontSize: '15px' }}>That discovery sparked my transition into tech. I completed an intensive training program, working on real-world projects and developing a mindset focused on continuous growth.</div>
                     <div style={{ fontSize: '15px' }}>Today, I'm committed to building a solid career: I adapt quickly to new environments, tackle challenges with determination, and seek a space where I can contribute, learn, and grow every single day.</div>
