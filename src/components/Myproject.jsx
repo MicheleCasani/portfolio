@@ -91,7 +91,7 @@ const Myproject = () => {
                                         href={project.githubLink}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className='btn-link mt-2 d-flex align-items-center justify-content-center gap-2'
+                                        className='btn-link btn-outline-light mt-2 d-flex align-items-center justify-content-center gap-2'
                                         style={{ textDecoration: 'none' }}
                                     >
                                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="18" height="18" style={{ filter: 'invert(1)' }} />
