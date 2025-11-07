@@ -3,7 +3,7 @@ import Video from "../components/Video"
 import AboutMe from "../components/AboutMe"
 import Technologies from "../components/Technologies"
 import Myproject from "../components/Myproject"
-import Footer from "../components/footer"
+import Footer from "../components/Footer"
 import Signature from "../components/Signature"
 
 const MainPage = () => {
