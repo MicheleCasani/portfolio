@@ -15,6 +15,8 @@ const Video = () => {
                     autoPlay
                     muted
                     loop
+                    playsInline
+                    preload="auto"
                     style={{
                         width: '100%',
                         height: '100%',
@@ -23,7 +25,7 @@ const Video = () => {
                     onLoadedData={(e) => e.target.playbackRate = 1.0}
                     onError={() => console.log('Video failed to load')}
                 >
-                    <source src="/sea.mp4" type="video/mp4" />
+                    <source src="/sea-compressed.mp4" type="video/mp4" />
                 </video>
             </div>
         </>
