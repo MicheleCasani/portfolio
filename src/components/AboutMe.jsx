@@ -50,10 +50,20 @@ const AboutMe = () => {
                     <button
                         className="btn-cv"
                         onClick={() => {
-                            const link = document.createElement('a');
-                            link.href = '/CV_dev.pdf';
-                            link.download = 'Michele-Casani-CV.pdf';
-                            link.click();
+                            try {
+                                // Prova download diretto
+                                const link = document.createElement('a');
+                                link.href = '/CV_dev.pdf';
+                                link.download = 'Michele-Casani-CV.pdf';
+                                link.target = '_blank';
+                                link.rel = 'noopener noreferrer';
+                                document.body.appendChild(link);
+                                link.click();
+                                document.body.removeChild(link);
+                            } catch (error) {
+                                // Fallback: apri in nuova finestra
+                                window.open('/CV_dev.pdf', '_blank');
+                            }
                         }}
                     >
                         CV
